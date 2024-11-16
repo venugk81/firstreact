@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.square{
+  width: 5rem;
+  height: 5rem;
+  color: #61dafb;
+  border: 1px;
+  cursor: pointer; 
+  box-shadow: 0px 0px 8px #d75819;
+  text-align: center;
+  font-size: 5rem;
+  border-radius: 10%;
+  font-weight: bold;
+  line-height: 5rem;
+  text-shadow: #888;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.board{
+  display: flex;
+  margin: 0.5rem;  
+  height: 5rem;
+  width: 240px;
+  border: #282c34;
+  box-shadow: 0px 0px 8px #109ff1;
+  border-radius: 5%;
+  
+}
+
+.board-container{
+  margin: 20px;
+}
+.square1 {
+  border: 5px ;
+  border-color: red;
+  background-color: rgb(14, 207, 237);
+  border-radius: 10%;
+  box-shadow: 0px 0px 8px #888;
+  width: 6rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  line-height: 5rem;
+  margin: 0.5rem;
+  align-content: center;
+  cursor: pointer;
+  text-wrap: inherit;
+}
+
+.board-row {
+  display: flex;
+  align-items: center;
+}
+
+.disabled {
+  background-color: dimgrey;
+  color: linen;
+  opacity: 1;
+}
